@@ -1,0 +1,45 @@
+body {
+    color: white;
+    background: rgb(255, 186, 196);
+    margin: 10px;
+    font-size: 30px;
+    font-family: "Sevillana", cursive;
+
+    color: white
+
+}
+
+header {
+    border: solid 4px white;
+    font-size: 30px;
+    color: rgb(255, 255, 226);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section {
+    background: rgb(255, 171, 179);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.texto {
+    margin-top: 2%;
+}
+
+
+.categoria-videos {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid white;
+}
